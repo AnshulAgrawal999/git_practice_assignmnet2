@@ -18,7 +18,7 @@ function checkPrime( num )
     
     for( let i = 3 ; i*i <= num ; i=i+2 )
     {
-        if( num%i )
+        if( num%i==0 )
         {
             console.log( "not Prime")  ;
 
